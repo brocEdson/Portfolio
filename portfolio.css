@@ -26,7 +26,7 @@ body
 {
     background-color: rgba(207, 140, 140, 0.75);
     border:rgba(39, 39, 39, 0.75);
-    border-style:solid;
+    border-style:groove;
     border-width: 10px;
     border-radius: 5px;
     padding-top: 30px;
@@ -42,26 +42,71 @@ body
 
 .aboutMe
 {
-    background-color: rgb(233, 228, 216);
-    padding-top: 30px;
-    padding-bottom:30px;
-    padding-right: 5%;
-    width: 75%;
+    background-color: rgba(233, 228, 216, 0.75);
+    padding: 3%;
+    width: 60%;
+    height: 40%;
     float: right;
-    transform: translate(0%, -100%);
+    transform: translate(-3%, -50%);
+    margin: auto;
+    border-radius: 5px;
 }
 
-.colorBlock
+.selfPortrait
 {
-    background-color:rgba(207, 140, 140, 0.75);
     background-image: url(portrait.png);
-    background-size: 300px;
+    background-size: 500px;
     background-repeat: no-repeat;
     background-position: center;
     float: left;
-    width: 19%;
-    height: 220px;
-    transform: translate(0%, -100%);
+    width: 29%;
+    height: 50%;
+    transform: translate(3%, -50%);
+    margin: auto;
+}
+
+.lingeringLegacy
+{
+    background-color: rgba(207, 140, 140, 0.75);
+    padding: 3%;
+    width: 60%;
+    height: 30%;
+    float: left;
+    transform: translate(3%, -40%);
+    margin: auto;
+    border-radius: 5px;
+}
+
+.lingeringLegacyVideo
+{
+    float: right;
+    padding: 3%;
+    transform: translate(-3%, -40%);
+    margin: auto;
+}
+
+.disasterGolf
+{
+    background-color: rgba(207, 140, 140, 0.75);
+    padding: 3%;
+    width: 60%;
+    height: 30%;
+    float: right;
+    transform: translate(40%, -20%);
+    border-radius: 5px;
+}
+
+.disasterGolfImg
+{
+    background-image: url(portrait.png);
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    float: left;
+    width: 29%;
+    height: 50%;
+    transform: translate(3%, 0%);
+    margin: auto;
 }
 
 h1
@@ -75,6 +120,8 @@ h2
 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     letter-spacing: 3px;
+    font-size: 40px;
+    text-shadow: 3px 3px rgba(165, 165, 165, 0.5);
 }
 
 h3
@@ -86,4 +133,11 @@ h3
 p
 {
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    text-shadow: 2px 2px rgba(165, 165, 165, 0.5);
+}
+
+a
+{
+    color: blue;
 }
