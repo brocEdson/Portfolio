@@ -1,0 +1,89 @@
+*
+{
+    text-align: center;
+    color: rgb(39, 39, 39);
+}
+
+body
+{
+    background-color: rgb(39, 39, 39);
+}
+
+.bannerImg
+{
+    background-image: url("pigBg.png");
+    background-position:center;
+    background-repeat: no-repeat;
+    filter: blur(8px);
+    height: 60%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+
+.bannerText
+{
+    background-color: rgba(207, 140, 140, 0.75);
+    border:rgba(39, 39, 39, 0.75);
+    border-style:solid;
+    border-width: 10px;
+    border-radius: 5px;
+    padding-top: 30px;
+    padding-bottom:30px;
+    padding-right: 30px;
+    padding-left: 30px;
+    width: 500px;
+    line-height: 10px;
+    transform: translate(0%, -200%);
+    display: block;
+    margin: 0 auto;
+}
+
+.aboutMe
+{
+    background-color: rgb(233, 228, 216);
+    padding-top: 30px;
+    padding-bottom:30px;
+    padding-right: 5%;
+    width: 75%;
+    float: right;
+    transform: translate(0%, -100%);
+}
+
+.colorBlock
+{
+    background-color:rgba(207, 140, 140, 0.75);
+    background-image: url(portrait.png);
+    background-size: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    float: left;
+    width: 19%;
+    height: 220px;
+    transform: translate(0%, -100%);
+}
+
+h1
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 60px;
+    letter-spacing: 10px;
+}
+
+h2
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 3px;
+}
+
+h3
+{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 6px;
+}
+
+p
+{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
