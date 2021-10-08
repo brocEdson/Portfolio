@@ -64,7 +64,6 @@ body
     height: 50%;
     transform: translate(3%, -50%);
     margin: auto;
-    box-shadow: 10px 10px 10px black;
 }
 
 .lingeringLegacy
@@ -86,7 +85,6 @@ body
     padding: 3%;
     transform: translate(-3%, -40%);
     margin: auto;
-    box-shadow: 10px 10px 10px black;
 }
 
 .disasterGolf
@@ -103,7 +101,7 @@ body
 
 .disasterGolfImg
 {
-    background-image: url(portrait.png);
+    background-image: url(disasterGolf.gif);
     background-size: 500px;
     background-repeat: no-repeat;
     background-position: center;
@@ -112,7 +110,6 @@ body
     height: 40%;
     transform: translate(3%, -123%);
     margin: auto;
-    box-shadow: 10px 10px 10px black;
 }
 
 .personal
@@ -131,7 +128,7 @@ body
 
 .personalImg
 {
-    background-image: url(portrait.png);
+    background-image: url(lodestone.gif);
     background-size: 500px;
     background-repeat: no-repeat;
     background-position: center;
@@ -141,7 +138,6 @@ body
     transform: translate(240%, 338%);
     margin: auto;
     position: absolute;
-    box-shadow: 10px 10px 10px black;
 }
 
 .resume
